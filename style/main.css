@@ -1,0 +1,48 @@
+.name {
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+
+.lastname {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.age {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.dni {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.email {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+input:focus {
+    border: 2px solid ;
+    background: #daebf7;
+  }
+
+ .boton {
+    width: 130px;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #daebf7;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+ } 
+ h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+ }
+ label {
+    font-family: 'Roboto', sans-serif
+ }

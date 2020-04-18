@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer formulario</title>
+    <link rel="stylesheet" href="style/main.css">
+
+</head>
+<body>
+    <h1>CONTACTO</h1>
+    <form action="#">
+        
+         <label>
+           Nombre
+         <input class="name" type="text" name="name" placeholder="Nombre" required >
+
+         </label>
+        
+         <br><br>
+         <label>
+           Apellido
+         <input class="lastname" type="text" name="lastname" placeholder="Apellido" required >
+
+         </label>
+
+        <br><br>
+        <label>
+           Edad
+        <input class="age" type="number" name="age" placeholder="Edad" required min="18" max="80">
+        </label>
+
+        <br><br>
+        <label>
+            Sexo
+            <br> 
+        </label>
+            <label>femenino </label>
+        <input type="radio" name="sexo" checked required>
+        
+            <label>masculino </label>
+        <input type="radio" name="sexo" checked required>
+        
+        
+
+        <br><br>
+        <label>
+            DNI
+        <input class="dni" type="text" minlength="8" placeholder="DNI" required pattern="[A-Za-z0-9]+">
+        </label>
+        <br><br>
+        <label>
+            Correo Electrónico
+        <input class="email" type="email" placeholder="Correo Electrónico" required>
+        </label> 
+    
+        <br><br>
+        <input class="boton" type="submit" value="Enviar ahora">
+        
+    
+
+
+
+    </form>
+</body>
+</html>
